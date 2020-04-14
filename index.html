@@ -18,7 +18,7 @@
     <style>
         h2 {color:black;
             font-family: Monaco;
-            font-size: 30px;}
+            font-size: 20px;}
         
     
     
@@ -54,7 +54,7 @@
 <body>
 
 
-<div data-role="page" id="page1" 
+<div data-role="page" id="foo" 
      style="background-color: aquamarine">
   
   <div data-role="header" style="background-color: #00e64d"  "font-size: 50px" >
@@ -63,21 +63,37 @@
     
     
   
-  <div data-role="content" style="background-color: aquamarine">
+  <div data-role="ui-content" style="background-color: aquamarine">
  
 	<h2 style="text-align: center"> Welcome to this APP that will teach you the basic of Polish Language <h2>
         <fieldset class="ui-grid-a">
-	<div class="ui-block-a"><button style=" margin: 10px 1px; background-color: blueviolet; color: white" type="submit" data-theme="c">Introduction</button></div>
-	<div class="ui-block-b"><button style=" margin: 60px 1px; background-color: brown; color: white" type="submit" data-theme="c">Lesson 1-3</button></div>
-    <div class="ui-block-a"><button style=" margin: -60px 1px; background-color: red; color: white" type="submit" data-theme="c">Lesson 4-7</button></div>
-	<div class="ui-block-b"><button style=" margin: -10px 1px; background-color: rebeccapurple; color: white" type="submit" data-theme="c">Lesson 8-10</button></div>
-    <div class="ui-block-a"><button style=" margin: 15px 1px; background-color: chartreuse; color: white" type="submit" data-theme="c">Useful Websites!</button></div>
-	<div class="ui-block-b"><button style=" margin: 70px 1px; background-color: greenyellow; color: white" type="submit" data-theme="c">Author</button></div>	   
-        </fieldset>
+	<a href="#bar" class="ui-block-a"><button   style=" margin: 10px 1px; background-color: blueviolet; color: white" type="submit" data-theme="c"> Introduction</button></a>
+	<a href="#bar" class="ui-block-b"><button style=" margin: 60px 1px; background-color: brown; color: white" type="submit" data-theme="c">Lesson 1-3</button></a>
+    <a href="#bar" class="ui-block-a"><button style=" margin: -60px 1px; background-color: red; color: white" type="submit" data-theme="c">Lesson 4-7</button></a>
+	<a href="#bar" class="ui-block-b"><button style=" margin: -10px 1px; background-color: rebeccapurple; color: white" type="submit" data-theme="c">Lesson 8-10</button></a>
+    <a href="#bar" class="ui-block-a"><button style=" margin: 15px 1px; background-color: chartreuse; color: white" type="submit" data-theme="c">Useful Websites!</button></a>
+	<a href="#bar" class="ui-block-b"><button style=" margin: 70px 1px; background-color: greenyellow; color: white" type="submit" data-theme="c">Author</button></a>	   </fieldset></div>
+        
 	<button style="background-color: #00e64d; margin: -40px 1px;" onclick="alert('Hope you have a great day!')">Click Me!</button>
     
   </div>
   
+   <!-- Start of second page -->
+<div data-role="page" id="bar">
+
+	<div data-role="header">
+		<h1>Introduction</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
+		<p><a href="#foo">Back to foo</a></p>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->     
   
 
 
