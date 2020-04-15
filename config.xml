@@ -7,7 +7,9 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Sensor Demo</name>
+    <icon src="icon.jpg" />    
+        
+    <name>Learn Polish</name>
 
     <description>
         Language App
