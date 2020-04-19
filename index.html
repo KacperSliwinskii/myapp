@@ -137,10 +137,88 @@ tr:nth-child(even) {
         
         
  
- <!-- LESSON 7 -->
+ <!-- About me -->
+       /* Basic styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root{
+    --bg-color: white;
+}
+
+
+
+h1{
+    font-size: 3em;
+    font-weight: normal;
+}
+
+/* title styles */
+.home-title span{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    line-height: 1.2;
+}
+
+.home-title span::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation: a-ltr-after 2s cubic-bezier(.77,0,.18,1) forwards;
+    transform: translateX(-101%);
+}
+
+.home-title span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    animation: a-ltr-before 2s cubic-bezier(.77,0,.18,1) forwards;
+    transform: translateX(0);
+}
+
+.home-title span:nth-of-type(1)::before,
+.home-title span:nth-of-type(1)::after{
+    animation-delay: 1s;
+}
+
+.home-title span:nth-of-type(2)::before,
+.home-title span:nth-of-type(2)::after{
+    animation-delay: 1.5s;
+}
+
         
- 
+.home-title span:nth-of-type(3)::before,
+.home-title span:nth-of-type(3)::after{
+    animation-delay: 2s;
+}
         
+.home-title span:nth-of-type(4)::before,
+.home-title span:nth-of-type(4)::after{
+    animation-delay: 2.5s;
+}
+
+@keyframes a-ltr-after{
+    0% {transform: translateX(-100%)}
+    100% {transform: translateX(101%)}
+}
+
+@keyframes a-ltr-before{
+    0% {transform: translateX(0)}
+    100% {transform: translateX(200%)}
+} 
+     
      
         
 </style>
@@ -184,7 +262,7 @@ tr:nth-child(even) {
     <a href="#les47" data-transition="slide" class="ui-block-a"><button style=" margin: -60px 1px; background-color: red; color: white" type="submit" data-theme="c">Lesson 4-7</button></a>
 	<a href="#test" data-transition="slide" data-transition="slide" class="ui-block-b"><button style=" margin: -10px 1px; background-color: rebeccapurple; color: white" type="submit" data-theme="c">Test</button></a>
     <a href="#useful" data-transition="slide" class="ui-block-a"><button style=" margin: 15px 1px; background-color: chartreuse; color: white" type="submit" data-theme="c">Useful Websites!</button></a>
-	<a href="#bar" data-transition="slide" class="ui-block-b"><button style=" margin: 70px 1px; background-color: greenyellow; color: white" type="submit" data-theme="c">Author</button></a>	   </fieldset></div>
+	<a href="#about" data-transition="slide" class="ui-block-b"><button style=" margin: 70px 1px; background-color: greenyellow; color: white" type="submit" data-theme="c">About Me</button></a>	   </fieldset></div>
         
 	<button style="background-color: #00e64d; margin: -40px 1px;" onclick="alert('Hope you have a great day!')">Click Me!</button>
     
@@ -370,7 +448,7 @@ tr:nth-child(even) {
 
     </div><!-- /page -->       
     
-    /div><!-- /page -->     
+    
     
     
   <div data-role="page" id="les3" style="background-color: aquamarine">
@@ -826,7 +904,7 @@ tr:nth-child(even) {
 
 </div><!-- /page -->     
     
-    /div><!-- /page -->     
+
     
     
   <div data-role="page" id="les9" style="background-color: aquamarine">
@@ -845,8 +923,7 @@ tr:nth-child(even) {
 
 </div><!-- /page -->       
     
-    /div><!-- /page -->     
-    
+
     
   <div data-role="page" id="les10" style="background-color: aquamarine">
 
@@ -883,6 +960,36 @@ tr:nth-child(even) {
     
     
     
+    
+    
+    
+    
+    
+    
+        
+        <a href="#index" data-transition="slide" data-direction="reverse"><button   style="margin: 10px 1px; background-color: blueviolet; color: white; text-align: center; " type="submit" data-theme="c"> Go Back To Main Menu</button></a>
+	</div><!-- /content -->
+    
+    
+    
+    <div data-role="page" id="about" style="background-color: aquamarine; text-align: center">
+
+	<div data-role="header" style="background-color: #00e64d"  "font-size: 50px" >
+		<h1>About me</h1>
+	</div><!-- /header -->
+
+
+
+	   <img src="me.jpg" style="width:50% asign:center">  
+        
+
+    
+        <h1 class="home-title">
+  <span>Hi my name is Kacper Sliwinski</span>
+  <span>And I have created this app</span>
+  <span>if you have any questions</span>
+  <span>E-Mail me: slik1_18@uni.worcs.ac.uk</span>
+</h1>
     
     
     

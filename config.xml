@@ -9,7 +9,7 @@
 
     <preference name="AVAudioSession" value="AVAudioSessionCategoryPlayback" />    
         
-        
+    <plugin name="cordova-plugin-vibration" />   
         
     <icon src="icon.png" />    
         
