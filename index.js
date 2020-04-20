@@ -258,21 +258,6 @@ function makeSound11(){
 }
 
 
-function createNotification() {
-        		
-    			
-    //
-    //setup notification
-    //
-	cordova.plugins.notification.local.schedule({ 
-    	id: 		1,
-        title: 		"Learn Polish",
-        text: 	"Are you ready to learn some Polish?",
-        trigger: { in: 10, unit: 'second' }
-   	});
-    
-}
-
 
 
 
