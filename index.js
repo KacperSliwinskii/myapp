@@ -256,3 +256,33 @@ function makeSound10(){
 function makeSound11(){
     navigator.notification.beep(1);
 }
+
+
+function createNotification() {
+        		
+    			
+    //
+    //setup notification
+    //
+	cordova.plugins.notification.local.schedule({ 
+    	id: 		1,
+        title: 		"Learn Polish",
+        text: 	"Are you ready to learn some Polish?",
+        trigger: { in: 10, unit: 'second' }
+   	});
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

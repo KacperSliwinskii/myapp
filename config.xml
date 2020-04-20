@@ -11,6 +11,7 @@
         
     <plugin name="cordova-plugin-vibration" spec="3.1.1" />   
     <plugin name="cordova-plugin-dialogs"  spec="2.0.2" />
+    <plugin name="cordova-plugin-local-notification" />
     <icon src="icon.png" />    
         
     <name>Learn Polish</name>
