@@ -1,19 +1,5 @@
 
 
-function onDeviceReady() {
-    document.addEventListener("deviceready", onDeviceReady, false);
-    console.log(navigator.vibrate);
-    document.getElementById("v1").addEventListener('click', 3000);
-    document.getElementById("v2").addEventListener('click', 3000);
-    document.getElementById("v3").addEventListener('click', 3000);
-}
-
-
-
-
-
-
-
 function myFunction0() {
   var x = document.getElementById("myDIV0");
   if (x.innerHTML === "Cat") {
