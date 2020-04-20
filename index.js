@@ -167,8 +167,43 @@ function wrongFunction8() {
 
 
 
+function correctFunction9() {
+  document.getElementById("correct9").style.backgroundColor = "green";
+}
+
+function wrongFunction9() {
+  document.getElementById("wrong9").style.backgroundColor = "red";
+}
 
 
+
+
+function correctFunction10() {
+  document.getElementById("correct10").style.backgroundColor = "green";
+}
+
+function wrongFunction10() {
+  document.getElementById("wrong10").style.backgroundColor = "red";
+}
+
+
+
+function correctFunction11() {
+  document.getElementById("correct11").style.backgroundColor = "green";
+}
+
+function wrongFunction11() {
+  document.getElementById("wrong11").style.backgroundColor = "red";
+}
+
+
+function correctFunction12() {
+  document.getElementById("correct12").style.backgroundColor = "green";
+}
+
+function wrongFunction12() {
+  document.getElementById("wrong12").style.backgroundColor = "red";
+}
 
 
 
