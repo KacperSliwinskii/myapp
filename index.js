@@ -1,10 +1,11 @@
-document.addEventListener("deviceready", onDeviceReady, false);
-
 
 
 function onDeviceReady() {
-    document.getElementById("v1").addEventListener('click', 3000);
+    document.addEventListener("deviceready", onDeviceReady, false);
     console.log(navigator.vibrate);
+    document.getElementById("v1").addEventListener('click', 3000);
+    document.getElementById("v2").addEventListener('click', 3000);
+    document.getElementById("v3").addEventListener('click', 3000);
 }
 
 
