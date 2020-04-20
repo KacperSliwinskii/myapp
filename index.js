@@ -90,4 +90,86 @@ function showSlides(n) {
 
 
 
+function correctFunction() {
+  document.getElementById("correct").style.backgroundColor = "green";
+}
+
+function wrongFunction() {
+  document.getElementById("wrong").style.backgroundColor = "red";
+}
+
+
+function correctFunction2() {
+  document.getElementById("correct2").style.backgroundColor = "green";
+}
+
+function wrongFunction2() {
+  document.getElementById("wrong2").style.backgroundColor = "red";
+}
+
+
+function correctFunction3() {
+  document.getElementById("correct3").style.backgroundColor = "green";
+}
+
+function wrongFunction3() {
+  document.getElementById("wrong3").style.backgroundColor = "red";
+}
+
+function correctFunction4() {
+  document.getElementById("correct4").style.backgroundColor = "green";
+}
+
+function wrongFunction4() {
+  document.getElementById("wrong4").style.backgroundColor = "red";
+}
+
+
+function correctFunction5() {
+  document.getElementById("correct5").style.backgroundColor = "green";
+}
+
+function wrongFunction5() {
+  document.getElementById("wrong5").style.backgroundColor = "red";
+}
+
+
+
+function correctFunction6() {
+  document.getElementById("correct6").style.backgroundColor = "green";
+}
+
+function wrongFunction6() {
+  document.getElementById("wrong6").style.backgroundColor = "red";
+}
+
+
+function correctFunction7() {
+  document.getElementById("correct7").style.backgroundColor = "green";
+}
+
+function wrongFunction7() {
+  document.getElementById("wrong7").style.backgroundColor = "red";
+}
+
+
+function correctFunction8() {
+  document.getElementById("correct8").style.backgroundColor = "green";
+}
+
+function wrongFunction8() {
+  document.getElementById("wrong8").style.backgroundColor = "red";
+}
+
+
+
+
+
+
+
+
+
+
+
+
 

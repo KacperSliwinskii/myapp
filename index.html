@@ -259,7 +259,7 @@ tr:nth-child(even) {
 <div data-role="page" id="index" 
      style="background-color: aquamarine">
   
-  <div data-role="header" style="background-color: #00e64d"  "font-size: 50px" >
+  <div data-role="header" style="background-color: #00e64d">
     <h1>Learn Polish</h1>
   </div>
     
@@ -1055,6 +1055,82 @@ tr:nth-child(even) {
 	<div role="main" class="ui-content" style="text-align: center;">
 		<p style=" text-align: center;">Hello User, Welcome to the first test!</p>
 		
+        
+        <div>
+        <fieldset class="ui-grid-a">
+        <img src="dog.gif" style="width:200px; height:200px;">
+        <p>What is this?</p>
+        <a class="ui-block-a"><button id="correct" onclick="correctFunction()" style="margin: 10px 1px; text-align: center"> Pies</button></a>
+	   <a class="ui-block-b"><button id="wrong" onclick="wrongFunction()" onclick="vibe4(2000);" style=" margin: 10px 3px">Chomik</button></a>
+        </fieldset>   
+        </div>
+        
+        <div>
+        <fieldset class="ui-grid-a">
+        <img src="cat.gif" style="width:200px; height:200px;">
+        <p>What is this?</p>
+        <a class="ui-block-a"><button id="wrong2" onclick="wrongFunction2()" onclick="vibe4(2000);" style="margin: 10px 1px; text-align: center"> Niedzwiedz</button></a>
+	   <a class="ui-block-b"><button id="correct2" onclick="correctFunction2()" style=" margin: 10px 3px">Kot</button></a>
+        </fieldset>   
+        </div>
+        
+        
+        <div>
+        <fieldset class="ui-grid-a">
+        <img src="ham.gif" style="width:200px; height:200px;">
+        <p>What is this?</p>
+        <a class="ui-block-a"><button id="wrong3" onclick="wrongFunction3()" style="margin: 10px 1px; text-align: center"> Kon</button></a>
+	   <a class="ui-block-b"><button id="correct3" onclick="correctFunction3()" onclick="vibe4(2000);" style=" margin: 10px 3px">Szynka</button></a>
+        </fieldset>   
+        </div>
+        
+        <div>
+        <fieldset class="ui-grid-a">
+        <img src="chocolate.gif" style="width:200px; height:200px;">
+        <p>What is this?</p>
+        <a class="ui-block-a"><button id="correct4" onclick="correctFunction4()" style="margin: 10px 1px; text-align: center"> Czekolada</button></a>
+	   <a class="ui-block-b"><button id="wrong4" onclick="wrongFunction4()" onclick="vibe4(2000);" style=" margin: 10px 3px">Pilka Nozna</button></a>
+        </fieldset>   
+        </div>
+        
+        <div>
+        <fieldset class="ui-grid-a">
+        <img src="boxing.gif" style="width:200px; height:200px;">
+        <p>What is this?</p>
+        <a class="ui-block-a"><button id="correct5" onclick="correctFunction5()" style="margin: 10px 1px; text-align: center"> Boks</button></a>
+	   <a class="ui-block-b"><button id="wrong5" onclick="wrongFunction5()" onclick="vibe4(2000);" style=" margin: 10px 3px">Banan</button></a>
+        </fieldset>   
+        </div>
+        
+        <div>
+        <fieldset class="ui-grid-a">
+        <img src="basket.gif" style="width:200px; height:200px;">
+        <p>What is this?</p>
+        <a class="ui-block-a"><button id="correct6" onclick="correctFunction6()" style="margin: 10px 1px; text-align: center"> Koszykowka</button></a>
+	   <a class="ui-block-b"><button id="wrong6" onclick="wrongFunction6()" onclick="vibe4(2000);" style=" margin: 10px 3px">Ciastka</button></a>
+        </fieldset>   
+        </div>
+        
+        <div>
+        <fieldset class="ui-grid-a">
+        <img src="bread.gif" style="width:200px; height:200px;">
+        <p>What is this?</p>
+        <a class="ui-block-a"><button id="wrong7" onclick="wrongFunction7()" onclick="vibe4(2000);" style="margin: 10px 1px; text-align: center"> Piwo</button></a>
+	   <a class="ui-block-b"><button id="correct7" onclick="correctFunction7()" style=" margin: 10px 3px">Chleb</button></a>
+        </fieldset>   
+        </div>
+        
+        
+        <div>
+        <fieldset class="ui-grid-a">
+        <img src="monkey.gif" style="width:200px; height:200px;">
+        <p>What is this?</p>
+        <a class="ui-block-a"><button id="wrong8" onclick="wrongFunction8()" onclick="vibe4(2000);" style="margin: 10px 1px; text-align: center"> Siatkowka</button></a>
+	   <a class="ui-block-b"><button id="correct8" onclick="correctFunction8()" style=" margin: 10px 3px">Malpa</button></a>
+        </fieldset>   
+        </div>
+        
+        
 
         
         <a href="#test" data-transition="slide" data-direction="reverse"><button   style="margin: 10px 1px; background-color: blueviolet; color: white; text-align: center; " type="submit" data-theme="c"> Go Back To Test</button></a>
@@ -1075,7 +1151,6 @@ tr:nth-child(even) {
 		<p style=" text-align: center;">Hello User, Welcome to the second test!</p>
 		
 
-        navigator.vibrate([3000]);
         
         
         <a href="#test" data-transition="slide" data-direction="reverse"><button   style="margin: 10px 1px; background-color: blueviolet; color: white; text-align: center; " type="submit" data-theme="c"> Go Back To Test</button></a>
