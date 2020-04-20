@@ -208,3 +208,6 @@ function wrongFunction12() {
 
 
 
+function makeSound(){
+    naviagtor.notification.beep(1);
+}

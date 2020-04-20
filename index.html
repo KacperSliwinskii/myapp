@@ -1233,20 +1233,20 @@ tr:nth-child(even) {
         <div>
         <fieldset class="ui-grid-a">
      
-        <a class="ui-block-a"><button id="correct12" onclick="correctFunction12()"  style="margin: 10px 1px; text-align: center"> Good day!</button></a>
-	   <a class="ui-block-b"><button id="wrong12" onclick="wrongFunction12()" onclick="vibe6(2000);" style=" margin: 10px 3px">Goodbye!</button></a>
+        <a class="ui-block-a"><button id="correct12" onclick="correctFunction12(); makeSound()"  style="margin: 10px 1px; text-align: center"> Good day!</button></a>
+	   <a class="ui-block-b"><button id="wrong12" onclick="wrongFunction12(); vibe6(2000);" style=" margin: 10px 3px">Goodbye!</button></a>
         </fieldset>   
         </div>
 
         
         
-         <script>
+    <script>
         
         function vibe6( timeV6){
             
             
-            navigator.vibrate(timeV6);
-            
+        navigator.vibrate(timeV6);
+        
             
             
         }
@@ -1263,7 +1263,7 @@ tr:nth-child(even) {
         <a href="#test" data-transition="slide" data-direction="reverse"><button   style="margin: 10px 1px; background-color: blueviolet; color: white; text-align: center; " type="submit" data-theme="c"> Go Back To Test</button></a>
 	</div><!-- /content -->
 
-        
+    </div>        
     
 <div data-role="page" id="useful" style="background-color: aquamarine">
 
