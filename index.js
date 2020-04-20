@@ -209,5 +209,5 @@ function wrongFunction12() {
 
 
 function makeSound(){
-    naviagtor.notification.beep(1);
+    navigator.notification.beep(2);
 }
