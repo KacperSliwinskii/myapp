@@ -209,5 +209,50 @@ function wrongFunction12() {
 
 
 function makeSound(){
-    navigator.notification.beep(2);
+    navigator.notification.beep(1);
+}
+
+
+function makeSound1(){
+    navigator.notification.beep(1);
+}
+
+function makeSound2(){
+    navigator.notification.beep(1);
+}
+
+function makeSound3(){
+    navigator.notification.beep(1);
+}
+
+function makeSound4(){
+    navigator.notification.beep(1);
+}
+
+function makeSound5(){
+    navigator.notification.beep(1);
+}
+
+function makeSound6(){
+    navigator.notification.beep(1);
+}
+
+function makeSound7(){
+    navigator.notification.beep(1);
+}
+
+function makeSound8(){
+    navigator.notification.beep(1);
+}
+
+function makeSound9(){
+    navigator.notification.beep(1);
+}
+
+function makeSound10(){
+    navigator.notification.beep(1);
+}
+
+function makeSound11(){
+    navigator.notification.beep(1);
 }
