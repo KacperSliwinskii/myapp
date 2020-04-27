@@ -1,4 +1,5 @@
 
+
 function myFunction0() {
   var x = document.getElementById("myDIV0");
   if (x.innerHTML === "Cat") {
