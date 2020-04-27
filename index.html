@@ -1329,7 +1329,19 @@ tr:nth-child(even) {
   <span>E-Mail me: slik1_18@uni.worcs.ac.uk</span>
         </h1>
     
-    
+
+  <div data-role="main" class="ui-content">
+    <form method="post" action="mailto:slik1_18@uni.worc.ac.uk" enctype="text/plain">
+      <div class="ui-field-contain">
+        <label for="fullname">Full name:</label>
+        <input type="text" name="FullName" id="fullname">       
+        <label for="question">Question:</label>
+        <input type="text" name="Question" id="bday">
+        <label for="email">E-mail:</label>
+        <input type="email" name="Email" id="email" placeholder="Your email..">
+      </div>
+      <input type="submit" data-inline="true" value="Submit">
+    </form>
     
     
     
