@@ -1323,7 +1323,7 @@ tr:nth-child(even) {
         
         
  <script>
-$(document).on("pagecreate","#pageone",function(){
+$(document).on("pagecreate","#about",function(){
   $("p").on("swiperight",function(){
     alert("You swiped right!");
   });                       
@@ -1332,7 +1332,13 @@ $(document).on("pagecreate","#pageone",function(){
 </script> 
         
 
-           <p style="border:1px solid black;margin:5px;">Swipe me in the right direction - do not swipe outside the border!</p>  
+
+
+  <div data-role="main" class="ui-content">
+    <p style="border:1px solid black;margin:5px;">Swipe me in the right direction - do not swipe outside the border!</p>  
+  </div>
+
+ 
     
         <h1 style="font-size: 20px" class="home-title">
   <span>Hi my name is Kacper Sliwinski</span>
@@ -1378,8 +1384,7 @@ function submit() {
         <a href="#index" data-transition="slide" data-direction="reverse"><button   style="margin: 10px 1px; background-color: blueviolet; color: white; text-align: center; " type="submit" data-theme="c"> Go Back To Main Menu</button></a>
 	</div><!-- /content -->
     
-    
-    
+      
     
 </div><!-- /page -->       
         
