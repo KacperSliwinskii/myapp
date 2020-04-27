@@ -1320,7 +1320,19 @@ tr:nth-child(even) {
 
 	   <img src="me.jpg" style="width:20%; asign:center">  
         
+        
+        
+ <script>
+$(document).on("pagecreate","#pageone",function(){
+  $("p").on("swiperight",function(){
+    alert("You swiped right!");
+  });                       
+});
+     
+</script> 
+        
 
+           <p style="border:1px solid black;margin:5px;">Swipe me in the right direction - do not swipe outside the border!</p>  
     
         <h1 style="font-size: 20px" class="home-title">
   <span>Hi my name is Kacper Sliwinski</span>
@@ -1328,24 +1340,40 @@ tr:nth-child(even) {
   <span>if you have any questions</span>
   <span>E-Mail me: slik1_18@uni.worcs.ac.uk</span>
         </h1>
-    
+ 
+        
+        
+        
+     
+ <select name="select-native-2">
+    <option value="">What do you think of the app?</option>
+    <option value="small">Excellent</option>
+    <option value="medium">Average</option>
+    <option value="large">Bad</option>
+</select>       
+        
+<input type="text" name="textinput-6"  placeholder="Questions?/Improvements?" value="" data-mini="true">
+        
+        
+        
+<label for="slider-2">How old are you?</label>
+        
+<input type="range" name="slider-2"   value="50" min="0" max="100" data-highlight="true">           
+        
 
-  <div data-role="main" class="ui-content">
-    <form method="post" action="https://script.google.com/macros/s/AKfycbzETaZJk9J6wQsvel1cvDJlmJ5e49TQqdj-xtd3/exec">
-      <div class="ui-field-contain">
-        <label for="fullname">Full name:</label>
-        <input type="text" name="FullName" id="fullname">       
-        <label for="question">Question:</label>
-        <input type="text" name="Question" id="question">
-        <label for="email">E-mail:</label>
-        <input type="email" name="Email" id="email" placeholder="Your email..">
-      </div>
-      <input type="submit" data-inline="true" value="Submit">
-    </form>
-    
-    
-    
-    
+<button onclick="submit()" type="submit"  class="ui-shadow ui-btn ui-corner-all ui-mini">Submit</button>
+        
+
+<p id="demo"></p>        
+ 
+
+        
+<script>
+function submit() {
+  document.getElementById("demo").innerHTML = "Thank You!";
+}
+</script>
+            
         
         <a href="#index" data-transition="slide" data-direction="reverse"><button   style="margin: 10px 1px; background-color: blueviolet; color: white; text-align: center; " type="submit" data-theme="c"> Go Back To Main Menu</button></a>
 	</div><!-- /content -->
